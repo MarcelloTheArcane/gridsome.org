@@ -1,0 +1,23 @@
+[[plugins]]
+package = "netlify-plugin-csp-generator"
+
+  [plugins.inputs]
+  buildDir = "dist"
+
+  [plugins.inputs.policies]
+    defaultSrc = "'none'"
+    childSrc = "'none'"
+    connectSrc = "'none'"
+    fontSrc = "'none'"
+    frameSrc = "'none'"
+    imgSrc = "'none'"
+    manifestSrc = "'none'"
+    mediaSrc = "'none'"
+    objectSrc = "'none'"
+    scriptSrc = "'none'"
+    scriptSrcElem = "'none'"
+    scriptSrcAttr = "'none'"
+    styleSrc = "'none'"
+    styleSrcElem = "'none'"
+    styleSrcAttr = "'none'"
+    workerSrc = "'none'"
