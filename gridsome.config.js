@@ -44,14 +44,14 @@ module.exports = {
         id: 'UA-127625720-1'
       }
     },
-    {
-      use: '@gridsome/plugin-critical',
-      options: {
-        paths: ['/'],
-        width: 1300,
-        height: 900
-      }
-    },
+    // {
+    //   use: '@gridsome/plugin-critical',
+    //   options: {
+    //     paths: ['/'],
+    //     width: 1300,
+    //     height: 900
+    //   }
+    // },
     {
       use: '@gridsome/vue-remark',
       options: {
