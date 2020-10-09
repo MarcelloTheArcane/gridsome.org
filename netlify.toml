@@ -6,8 +6,8 @@ package = "netlify-plugin-csp-generator"
 
   [plugins.inputs.policies]
     defaultSrc = "'self'"
-    connectSrc = "'self' https://www.google-analytics.com"
+    connectSrc = "'self' https://www.google-analytics.com https://*.algolia.net"
     fontSrc = "'self'"
     imgSrc = "'self' data: https://www.google-analytics.com"
-    scriptSrc = "'self' https://www.google-analytics.com https://ssl.google-analytics.com https://www.googletagmanager.com"
+    scriptSrc = "'self' https://www.google-analytics.com https://ssl.google-analytics.com https://www.googletagmanager.com https://*.algolia.net"
     styleSrc = "'self'"
